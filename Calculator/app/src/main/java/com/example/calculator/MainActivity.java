@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
     btnEqual,btnClear;
     TextView tvInput,tvOutput;
     String process,modulo;
-    //boolean checkBrecket=false;
+    boolean checkBrecket=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-     //   setContentView(R.layout.activity_main);
-    //    initialization();
-     //   createFunctionButtons();
-    //    tvInput.setText("");
+        setContentView(R.layout.activity_main);
+        initialization();
+        createFunctionButtons();
+        tvInput.setText("");
         tvOutput.setText("0");
 
 
