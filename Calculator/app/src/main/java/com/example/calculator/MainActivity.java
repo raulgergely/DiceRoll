@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
      //   setContentView(R.layout.activity_main);
     //    initialization();
      //   createFunctionButtons();
-        tvInput.setText("");
+    //    tvInput.setText("");
         tvOutput.setText("0");
 
 
