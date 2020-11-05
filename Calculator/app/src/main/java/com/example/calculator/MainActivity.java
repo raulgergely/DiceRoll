@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     btnEqual,btnClear;
     TextView tvInput,tvOutput;
     String process,modulo;
-    boolean checkBrecket=false;
+    //boolean checkBrecket=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
